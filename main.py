@@ -9,8 +9,8 @@
 ==============================================================================
 
  When running the UPLOAD cell, upload the following two files:
-        - مضامین-t__1_.docx   (comprehensive meta-synthesis table)
-        - مفاهیم.docx         (full description of the 85 concepts - optional, documentation only)
+        - themes.docx   (comprehensive meta-synthesis table)
+        - concepts.docx         (full description of the 85 concepts - optional, documentation only)
  Run the remaining cells in order. All tables (CSV) and figures (PNG) will be
      saved in the current folder and available for download.
 """
@@ -38,7 +38,7 @@ plt.rcParams["axes.unicode_minus"] = False
 #   from google.colab import files
 #   uploaded = files.upload()
 #
-THEMES_DOCX = "مضامین-t__1_.docx"   # comprehensive meta-synthesis table (primary and sole source of the numbers)
+THEMES_DOCX = "themes.docx"   # comprehensive meta-synthesis table (primary and sole source of the numbers)
 
 pdig = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 def to_num(s):
